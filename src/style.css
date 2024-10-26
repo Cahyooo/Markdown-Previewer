@@ -1,0 +1,30 @@
+#editor {
+    width: 50vw;
+    height: 200px;
+}
+
+
+img {
+    width: 50%;
+}
+
+main {
+    width: 50vw;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 70vw;
+    }
+    #editor {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    main {
+        width: 90vw;
+    }
+    #editor {
+        width: 90vw;
+    }
+}
